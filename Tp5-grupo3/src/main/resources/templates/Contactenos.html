@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+		<title>Contactos</title>
+		<link rel="stylesheet" href="../static/css/style.css">
+		</head>
+	<body>
+	<header>
+	<h1>Contactenos</h1> 
+	<img src="../static/images/calendario.jpg" alt="300" title="beneficios"   height="300" width="400">
+	</header>
+	<ol>
+		<nav class="barra"> 
+			<li><a href="index.html">Inicio</a></li>
+			<li> <a href="agenda.html">Agenda</a> </li>
+			<li> <a href="beneficios.html">Beneficios y Becas</a> </li>
+			<li> <a href="Contactenos.html">Contáctanos </a></li>              
+		</nav>
+		</ol>
+	
+		
+		<form action="/my-handling-form-page" method="post">
+			  <li>
+			    <label for="name">Nombre y Apellido:</label>
+			    <input type="text" id="name" name="name0">
+			  </li>
+			  <li>Provincia
+			    <select name="provincia" id="provincia">
+				  <option value="j">Jujuy</option>
+				  <option value="s">Salta</option>
+				  <option value="t">Tucuman</option>
+				  <option value="l">La Rioja</option>
+				  <option value="c">Cordoba</option>
+				  <option value="b">Buenos Aires</option>
+				</select>
+			  </li>
+			  <li>
+			    <label for="msg">Telefono:</label>
+			    <input type="number" id="tel" name="tel0">
+			  </li>
+			  <li>
+			    <label for="msg">Correo electronico:</label>
+			    <input type="email" id="correo" name="correo0">
+			  </li>
+			  <li>
+			  	<label for="msg">Estado Civil</label>
+			  		<br>
+			  		<input type="radio" name="casado" value="1">Casado
+					<br>
+					<input type="radio" name="soltero" value="2">Soltero
+					<br>
+					<input type="radio" name="otro" value="3">Otro
+			  </li>
+			  <li>
+			    <label for="msg">Mensaje:</label>
+			    <input type="text" id="mensaje" name="mensaje0" style="WIDTH: 228px; HEIGHT: 48px"
+						size=32 >
+			  </li>
+	 		  <br>
+	 		  <li>
+	 		  	<input type="submit" value="Enviar datos" />
+	 		  </li>	 			
+		</form>
+		<br>
+		<footer>2022. Portal de Capacitación – Av. Gral. Manuel Belgrano 789 – Teléfono (388) 999999 S. S. de Jujuy República
+Argentina.</footer>
+
+	</body>
+</html> 
