@@ -1,4 +1,4 @@
-package com.example.demo;
+package ar.edu.unju.fi.Tp5_grupo3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

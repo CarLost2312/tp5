@@ -1,6 +1,7 @@
-package ar.edu.unju.fi.model;
+package ar.edu.unju.fi.Tp5_grupo3.model;
 
 public class Alumno {
+
 private String nombre;
 private String apellido;
 private String email;
@@ -30,6 +31,6 @@ public void setEmail(String email) {
 	this.email = email;
 }
 	
-
-
+	
+	
 }
